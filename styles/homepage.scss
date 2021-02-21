@@ -1,0 +1,44 @@
+header {
+  min-height: 100vh;
+  background: linear-gradient(240deg, #85DCBA, #41B3A3);
+  color: #ffffff;
+  font-family: "Avenir Next", serif, sans-serif;
+  position: relative;
+  z-index: -1;
+  overflow-y: hidden;
+}
+
+.cocktailContainer {
+  top: 50%;
+  left: 35%;
+  transform: translate(-30%, -50%);
+  position: absolute;
+}
+.cocktailContainer h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.cocktailContainer h3 {
+  font-size: 35px;
+}
+
+.smallCocktail {
+  height: 200px;
+  position: absolute;
+  top: 70%;
+  right: 10%;
+}
+
+.mediumCocktail {
+  height: 300px;
+  position: absolute;
+  top: 35%;
+  left: 6%;
+}
+
+.largeCocktail {
+  height: 400px;
+  position: absolute;
+  top: 5%;
+  right: 20%;
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: block;
+  text-align: center;
+  min-height: 4vh;
+  position: fixed;
+  z-index: 1;
+  width: 59%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: $mainFont;
+  font-size: 1.8rem;
+  transition: all 0.2s ease-in-out;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 5% 0 0 40%;
+}
+
+a:hover {
+  font-size: 1.9rem;
+}

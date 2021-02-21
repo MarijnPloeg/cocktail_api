@@ -1,0 +1,99 @@
+header {
+  min-height: 100vh;
+  background: linear-gradient(240deg, #85DCBA, #41B3A3);
+  color: #ffffff;
+  font-family: "Avenir Next", serif, sans-serif;
+  position: relative;
+  z-index: -1;
+  overflow-y: hidden;
+}
+
+.cocktailContainer {
+  top: 50%;
+  left: 35%;
+  transform: translate(-30%, -50%);
+  position: absolute;
+}
+
+.cocktailContainer h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.cocktailContainer h3 {
+  font-size: 35px;
+}
+
+.smallCocktail {
+  height: 200px;
+  position: absolute;
+  top: 70%;
+  right: 10%;
+}
+
+.mediumCocktail {
+  height: 300px;
+  position: absolute;
+  top: 35%;
+  left: 6%;
+}
+
+.largeCocktail {
+  height: 400px;
+  position: absolute;
+  top: 5%;
+  right: 20%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: block;
+  text-align: center;
+  min-height: 4vh;
+  position: fixed;
+  z-index: 1;
+  width: 59%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Avenir Next", serif, sans-serif;
+  font-size: 1.8rem;
+  transition: all 0.2s ease-in-out;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 5% 0 0 40%;
+}
+
+a:hover {
+  font-size: 1.9rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  min-height: 100vh;
+  color: #85DCBA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Avenir Next", serif, sans-serif;
+  background-color: #41B3A3;
+}
+
+/*# sourceMappingURL=styles.css.map */

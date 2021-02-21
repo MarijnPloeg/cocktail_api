@@ -1,0 +1,24 @@
+$primaryColor : #85DCBA;
+$secondaryColor: #41B3A3;
+$mainFont : 'Avenir Next', serif, sans-serif;
+$fullScreen : 100vh;
+
+@import 'homepage';
+@import 'navigation';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  min-height: $fullScreen;
+  color: $primaryColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: $mainFont;
+  background-color: $secondaryColor;
+}

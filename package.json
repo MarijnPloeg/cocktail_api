@@ -1,0 +1,25 @@
+{
+  "name": "cocktail_api",
+  "version": "1.0.0",
+  "description": "A website for making cocktails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarijnPloeg/cocktail_api.git"
+  },
+  "keywords": [
+    "cocktail"
+  ],
+  "author": "Marijn Ploeg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarijnPloeg/cocktail_api/issues"
+  },
+  "homepage": "https://github.com/MarijnPloeg/cocktail_api#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
