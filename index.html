@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <title>Your lockdown cocktail</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a id="homeAnchor" href="#">Home</a></li>
-            <li><a id="aboutAnchor" href="#">About</a></li>
-            <li><a id="recipesAnchor" href="#">Recipes</a></li>
-            <li><a id="contactAnchor" href="#">Contact</a></li>
+            <li><a href="#mainPage">Home</a></li>
+            <li><a href="#aboutPage">About</a></li>
+            <li><a href="#recipesPage">Recipes</a></li>
+            <li><a href="#contactPage">Contact</a></li>
         </ul>
     </nav>
     <header id="mainPage">
         <div class="cocktailContainer">
-            <h1 class="mainTitle">Locktail</h1>
+            <h1 class="mainTitle">Locktails</h1>
             <h3 class="subTitle">Your favorite lockdown cocktails</h3>
         </div>
         <img src="assets/img/Small.svg" alt="Small cocktail glass" class="smallCocktail">
@@ -24,10 +25,12 @@
         <img src="assets/img/large_cocktail.svg" alt="Large cocktail glass" class="largeCocktail">
     </header>
     <section id="aboutPage">
-        <h1>About</h1>
+        <p id="aboutText"><span>I</span> <span>am</span> <span>creating</span> <span>this</span> <span>website</span> <span>to</span> <span>teach</span> <span>myself</span> <span>more</span> <span>about</span> <span>HTML</span>, <span>SCSS</span> <span>and</span> <span>JavaScript</span> <span>Check</span> <span>out</span> <span>the</span> <a href="#recipesPage">recipes</a> <span>page</span> <span>for</span> <span>some</span> <span>nice</span> <span>cocktails!</span></p>
     </section>
     <section id="recipesPage">
-        <h1>Recipes</h1>
+        <h1 class="randomCocktails">Some random cocktails, <a href="#" class="newRandomCocktails">generate new</a></h1>
+        <main class="cardList">
+        </main>
     </section>
     <section id="contactPage">
         <h1>Contact</h1>

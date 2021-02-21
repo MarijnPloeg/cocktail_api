@@ -1,0 +1,24 @@
+p {
+  width: 60%;
+  font-size: 45px;
+  font-family: 'Avenir Next', serif, sans-serif;
+  text-align: center;
+  span {
+    transition: all 0.3s ease-in-out;
+  }
+  span:hover {
+    color: white;
+    font-size: 46px;
+    cursor: default;
+  }
+  a {
+    font-size: 45px;
+  }
+  a:hover {
+    font-size: 46px;
+    cursor: pointer;
+    color: #E27D60;
+    font-weight: bolder;
+  }
+
+}
